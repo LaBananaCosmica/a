@@ -142,3 +142,5 @@ def buscar(request):
     plantilla = loader.get_template("buscador.html")
     documento = plantilla.render( contexto )
     return HttpResponse( documento )
+
+#aasd
